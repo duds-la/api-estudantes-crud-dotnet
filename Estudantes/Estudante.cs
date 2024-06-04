@@ -15,5 +15,15 @@
             Id = Guid.NewGuid();
             Ativo = true;
         }
+
+        public void AtualizarNome(string nome)
+        {
+            Nome = nome;
+        }
+
+        public void Desativar()
+        {
+            Ativo = false;
+        }
     }
 }
